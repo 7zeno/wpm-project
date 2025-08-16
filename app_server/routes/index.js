@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AIML' });
+  res.render('index', { title: 'Zeno' });
 });
 
 module.exports = router;
